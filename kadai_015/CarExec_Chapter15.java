@@ -1,7 +1,5 @@
 package kadai_015;
 
-import java.util.Scanner;
-
 public class CarExec_Chapter15 {
 
 	public static void main(String[] args) {
@@ -9,13 +7,9 @@ public class CarExec_Chapter15 {
 		
 		Car_Chapter15 car = new Car_Chapter15();
 		
-		System.out.println("ギア変更する");
-		Scanner sc = new Scanner(System.in);
-		int gc = Integer.parseInt(sc.next());
-		car.gearChange(gc);
+		car.gearChange(3);
 		car.run();
 
-		sc.close();
 	}
 
 }

@@ -17,15 +17,8 @@ public class Car_Chapter15 {
 
 		}
 		public void run() {
-			if(this.gear <= 5 && this.gear > 0) {
-				System.out.println("ギアチェンジ後の速度は" + this.speed + "km/秒");
-				return;
-			}else {
-				System.out.println("ギアは１～５速です");
-				System.out.println("速度は" + this.speed + "km/秒");
-				return;
-			}
-			
+			    System.out.println("ギアを1から" + this.gear + "に切り替えました");
+				System.out.println("速度は時速" + this.speed + "kmです");
 		}
 	}
 
